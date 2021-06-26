@@ -1,0 +1,11 @@
+def area():
+   print('area')
+   r=float(input('enter the radius'))
+   a=3.14*r*r   
+   print('area',a) 
+def ext():
+   f=input("write the file name")
+   file_extns=f.split(".")
+   print("The extension of the ile is :"+ repr(file_extns[-1]))
+area()
+ext()
